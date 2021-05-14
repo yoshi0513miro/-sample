@@ -4,7 +4,6 @@
 <head>
 
 <link rel = "stylesheet" href = "omikuji_element.css"/>
-<font size="7">
     <script>
     function tryFortune() {
         var resultInt = Math.floor(Math.random () * 7)
@@ -17,7 +16,7 @@
             case 5 : resultText = "吉";     break;
             default : resultText = "大吉";  break;
         }
-        document.getElementById("result").textContent = resultText;
+        document.getElementById("result").textContent = <font size="7">resultText</font>;
     }
 </script>
 </head>
@@ -26,5 +25,4 @@
     <button class = "button_omikuji" onclick="tryFortune()">おみくじを引く</button>
     <p id = "result"></p>
 </body>
-</font>
 </html>
