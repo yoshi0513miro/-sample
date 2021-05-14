@@ -16,7 +16,8 @@
             case 5 : resultText = "吉";     break;
             default : resultText = "大吉";  break;
         }
-        document.getElementById("result").textContent = <font size="7">resultText</font>;
+        <font size="7">
+        document.getElementById("result").textContent = resultText;
     }
 </script>
 </head>
@@ -24,7 +25,7 @@
     <h1>今日の運勢</h1>
 
     <button class = "button_omikuji" onclick="tryFortune()">おみくじを引く</button>
- 
+ </font>
     <p id = "result"></p>
 </body>
 </html>
