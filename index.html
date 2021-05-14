@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<title>おみくじ</title>
 <html>
 <head>
-
 <link rel = "stylesheet" href = "omikuji_element.css"/>
-    <script>
+<script>
     function tryFortune() {
         var resultInt = Math.floor(Math.random () * 7)
         switch (resultInt) {
@@ -22,9 +20,7 @@
 </head>
 <body>
     <h1>今日の運勢</h1>
-
     <button class = "button_omikuji" onclick="tryFortune()">おみくじを引く</button>
- 
     <p id = "result"></p>
 </body>
 </html>
